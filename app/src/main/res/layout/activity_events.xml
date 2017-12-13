@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <Spinner
+        android:id="@+id/FacilityT"
+        android:layout_width="338dp"
+        android:layout_height="42dp"
+        android:layout_alignLeft="@+id/Event"
+        android:layout_alignStart="@+id/Event"
+        android:layout_below="@+id/Event"
+        android:layout_marginTop="15dp"
+        tools:layout_editor_absoluteX="31dp"
+        android:entries="@array/event_arrays" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="13dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginStart="118dp"
+        android:onClick="goCustomer"
+        android:text="Next"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Event"
+        android:layout_width="359dp"
+        android:layout_height="58dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="Which facility would you like to book?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/seat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/FacilityT"
+        android:layout_alignStart="@+id/FacilityT"
+        android:layout_below="@+id/FacilityT"
+        android:layout_marginTop="14dp"
+        android:text="How many seats do you need?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large" />
+
+    <EditText
+        android:id="@+id/SeatT"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/seat"
+        android:layout_alignStart="@+id/seat"
+        android:layout_below="@+id/seat"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SWEN</string>
+    <string name="title_activity_home">Home</string>
+    <string-array name="event_arrays">
+        <item>Banquet Hall</item>
+        <item>Hotel Room</item>
+        <item>Conference Room</item>
+        <item>Press Conference </item>
+        <item>Lecture Room</item>
+    </string-array>
+</resources>

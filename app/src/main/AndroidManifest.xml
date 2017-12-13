@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.byod.swen">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Login" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Frontpage" />
+        <activity android:name=".Hotelroom" />
+        <activity android:name=".Reception" />
+        <activity android:name=".Employee" />
+        <activity android:name=".Facilities" />
+        <activity android:name=".Events" />
+        <activity android:name=".Service" />
+        <activity android:name=".Logistics" />
+        <activity android:name=".CustomerRelations" />
+        <activity android:name=".housekeeping" />
+        <activity android:name=".Booking" />
+        <activity android:name=".customer_details_activity" />
+        <activity android:name=".Hotelrooms" />
+        <activity android:name=".Log" />
+        <activity android:name=".Pay" />
+        <activity android:name=".Attendance" />
+        <activity android:name=".Details" />
+        <activity android:name=".Selection" />
+        <activity android:name=".checkin" />
+        <activity android:name=".checkInformationActivity" />
+        <activity android:name=".roomActivity" />
+        <activity android:name=".Housekeeper" />
+        <activity android:name=".Inspector" />
+        <activity android:name=".Family" />
+        <activity android:name=".Weekend" />
+        <activity android:name=".sale" />
+        <activity android:name=".review" />
+        <activity android:name=".roomStatus" />
+        <activity android:name=".updateStatus" />
+        <activity android:name=".receptionK" />
+        <activity android:name=".Activitycustomerdetails"></activity>
+    </application>
+
+</manifest>

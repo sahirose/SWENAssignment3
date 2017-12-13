@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Logistics" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Uniforms" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Available" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Kitchen Supplies" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="Ordering" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+        <TextView
+            android:text="X"
+            android:padding="3dip" />
+
+        <TextView
+            android:padding="3dip"
+            android:text="Key Replacements" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="X"
+            android:padding="3dip" />
+
+        <TextView
+            android:padding="3dip"
+            android:text="Maintenance" />
+
+        <TextView
+            android:gravity="right"
+            android:padding="3dip"
+            android:text="TBC" />
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Furniture" />
+    </TableRow>
+</TableLayout>
